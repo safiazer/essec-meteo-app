@@ -65,7 +65,7 @@
           {#if icon}
             <img src={icon} alt="icon" />
           {/if}
-          <div>Ville : {city}</div>
+          <div>Ville : <b>{city}</b></div>
           <div>Température : {temp} °C</div>
           <div>Température ressentie: {feels_like} °C</div>
           <div>Température min: {temp_min} °C</div>

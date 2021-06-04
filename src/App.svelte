@@ -1,6 +1,5 @@
 <script>
   import AutoComplete from "simple-svelte-autocomplete";
-  import Saos from "saos";
   import City from "./City.svelte";
   let selectedCountry;
   import { fav } from "./store.js";
