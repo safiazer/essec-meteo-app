@@ -35,7 +35,7 @@
   <div />
   <div>
     <div class="search__container">
-      <p class="search__title">Votre météo du jour en un clic !</p>
+      <p class="search__title">Your daily weather in one clic !</p>
       <form autocomplete="off">
         <AutoComplete
           className="search__input"
@@ -50,7 +50,7 @@
           delay="200"
           hideArrow={true}
           localFiltering="false"
-          placeholder={"Rechercher"}
+          placeholder={"Which city are you looking for"}
         />
       </form>
     </div>
